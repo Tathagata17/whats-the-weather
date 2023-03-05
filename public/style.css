@@ -1,0 +1,94 @@
+#main
+{
+    display: flex;
+    justify-content: center;
+}
+#otherday
+{
+    background-color: white;
+    height: 648px;
+    width: 981px;
+}
+#today
+{ 
+    height: 648px;
+    width: 500px;
+    background-color: #243A57;
+}
+#box
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 200px;
+}
+.boxes
+{
+
+    background-color: rgb(47, 109, 163);
+    width: 320px;
+    height: 50px;
+    margin: 30px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    font-size: 23px;
+}
+#top
+{
+    margin-right: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+}
+#date
+{
+    float: left;
+}
+#city
+{
+    margin-top: 27px;
+    border-radius: 5px;
+}
+#daywise
+{
+    display: flex;
+    flex-direction: row;
+    width: 850px;
+    max-height: 224px;
+    overflow-x: auto;
+}
+#boxtemp{
+    border: solid 10px #ddd;
+    height: 200px;
+    min-width: 200px;
+    line-height: 110px;
+    text-align: center;
+    font-size: 34px;
+}
+#daywise::-webkit-scrollbar
+{
+    width: 0;
+}
+#line
+{
+    height: 5px;
+    color:white;
+}
+.sun
+{
+    height: 50px;
+    width: 399px;
+    background-color: #ddd;
+    text-align: center;
+    border-radius: 12px;
+    margin: 7px;
+}
+#cityname
+{
+    color:white;
+}
+#temp
+{
+    color:white;
+}
